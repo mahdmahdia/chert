@@ -221,6 +221,8 @@ function create_config( )
     "calc",
     "download_media",
     "get",
+    "poker",
+    "lol",
     "google",
     "gps",
     "inpm",
