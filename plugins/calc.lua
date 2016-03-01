@@ -6,12 +6,12 @@ local function mathjs(exp)
   local b,c = http.request(url)
   local text = nil
   if c == 200 then
-    text = 'نتیجه: '..b
+    text = 'نتیجه محسابه :| '..b
   
   elseif c == 400 then
     text = b
   else
-    text = 'Unexpected error\n'
+    text = 'اعداد را بدون هیچ حرف اضافی بنویس\n'
       ..'Is api.mathjs.org up?'
   end
   return text
@@ -29,8 +29,3 @@ return {
   },
   run = run
 }
-
---Copyright and edit; @behroozyaghi
---Persian Translate; @behroozyaghi
---ch : @nod32team
---کپی بدون ذکر منبع حرام است
