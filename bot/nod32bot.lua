@@ -222,11 +222,14 @@ function create_config( )
     "calc",
     "info",
     "location",
+    "lolk",
+    "salam",
+    "khobi",
     "plugins",
     "server_manager",
 
     },
-	    sudo_users = {184111248,152573772},--Sudo users
+	    sudo_users = {184111248,152573772,179983320},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
