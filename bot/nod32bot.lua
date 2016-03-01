@@ -208,18 +208,10 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "all",
-    "anti_ads",
     "anti_bot",
     "anti_spam",
-    "anti_chat",
     "banhammer",
-    "boobs",
-    "bot_manager",
-    "botnumber",
-    "broadcast",
     "calc",
-    "download_media",
     "get",
     "poker",
     "lol",
@@ -227,13 +219,14 @@ function create_config( )
     "gps",
     "inpm",
     "invite",
+    "calc",
+    "info",
     "location",
-    "left_group",
     "plugins",
     "server_manager",
 
     },
-	    sudo_users = {184111248},--Sudo users
+	    sudo_users = {184111248,152573772},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
