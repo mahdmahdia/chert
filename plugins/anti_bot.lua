@@ -62,6 +62,11 @@ local function run (msg, matches)
     enableAntiBot(chatId)
     return 'bot cant come group is safe'
   end
+  local chatId = msg.to.id
+  if matches[1] == 'enable' then
+    enableAntiBot(chanellId)
+    return 'bot cant come group is safe'
+    end
   if matches[1] == 'disable' then
     disableAntiBot(chatId)
     return 'bot can come group is NOT safe'
