@@ -226,6 +226,8 @@ return {
   patterns = {
 	"^[/!]([Ii][Nn][Ff][Oo])$",
 	"^[/!]([Ii][Nn][Ff][Oo]) (.*)$",
+	"^[info]$",
+	"^[مشخصات]$",
 	"^[/!]([Ss][Ee][Tt][Rr][Aa][Nn][Kk]) (%d+) (.*)$",
 	"^[/!]([Ss][Ee][Tt][Rr][Aa][Nn][Kk]) (.*)$",
   },
@@ -233,8 +235,3 @@ return {
 }
 
 end
-
---Copyright; @behroozyaghi
---Persian Translate; @behroozyaghi
---ch : @nod32team
---کپی بدون ذکر منبع حرام است
