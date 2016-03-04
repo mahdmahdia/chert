@@ -217,6 +217,9 @@ function create_config( )
     "lol",
     "google",
     "gps",
+    "joke",
+    "music",
+    "musick"
     "inpm",
     "invite",
     "calc",
