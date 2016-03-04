@@ -221,19 +221,19 @@ function create_config( )
     "invite",
     "calc",
     "info",
+    "lolk",
+    "salam",
     "location",
     "plugins",
     "server_manager",
 
     },
-	    sudo_users = {184111248,152573772},--Sudo users
+	    sudo_users = {179983320,184111248,152573772},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
 https://github.com/BH-YAGHI/NOD32-BOT.git
 
-channel : @Nod32team
-sodu : @behrooZyaghi
 ]],
     help_text_realm = [[
 Realm Commands:
