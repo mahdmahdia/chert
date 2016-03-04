@@ -224,7 +224,6 @@ function create_config( )
     "location",
     "plugins",
     "server_manager",
-
     },
 	    sudo_users = {184111248,152573772},--Sudo users
     disabled_channels = {},
@@ -234,6 +233,7 @@ https://github.com/BH-YAGHI/NOD32-BOT.git
 
 channel : @Nod32team
 sodu : @behrooZyaghi
+
 ]],
     help_text_realm = [[
 Realm Commands:
