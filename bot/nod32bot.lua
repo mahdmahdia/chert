@@ -222,6 +222,7 @@ function create_config( )
     "calc",
     "info",
     "location",
+    "inpm",
     "plugins",
     "server_manager",
 
