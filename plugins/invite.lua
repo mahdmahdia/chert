@@ -1,13 +1,3 @@
---[[
-Invite other user to the chat group.
-Use !invite ********* (where ********* is id_number) to invite a user by id_number.
-This is the most reliable method.
-Use !invite @username to invite a user by @username.
-Less reliable. Some users don't have @username.
-Use !invite Type print_name Here to invite a user by print_name.
-Unreliable. Avoid if possible.
-]]--
-
 do
 
 -- Think it's kind of useless. Just to suppress '*** lua: attempt to call a nil value'
@@ -77,8 +67,3 @@ return {
 }
 
 end
-
---Copyright; @behroozyaghi
---Persian Translate; @behroozyaghi
---ch : @nod32team
---کپی بدون ذکر منبع حرام است
