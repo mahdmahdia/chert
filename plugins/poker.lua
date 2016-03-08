@@ -1,18 +1,22 @@
 do
 
 function run(msg, matches)
-  return " 😐 "
-  end
+local reply_id = msg['id']
+
+local text = ':|'
+
+reply_msg(reply_id, text, ok_cb, false)
+end
+
 return {
-  description = "poker!", 
-  usage = "fuck : ",
-  patterns = {
-    "^😐",
+patterns = {
+"^😐",
     "^😐😐",
     "^😐😐😐",
    "^😐😐😐😐",
     "^>😐😐😐😐😐",
-  },
-  run = run
+},
+run = run
 }
+
 end
