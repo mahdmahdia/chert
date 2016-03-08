@@ -208,18 +208,17 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "anti_bot",
-    "anti_spam",
     "banhammer",
     "calc",
-    "get",
     "poker",
     "lol",
     "google",
     "gps",
     "joke",
     "music",
-    "musick"
+    "echofile",
+    "gif",
+    "spam",
     "inpm",
     "invite",
     "calc",
